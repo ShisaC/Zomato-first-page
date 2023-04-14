@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="images/zomato_icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Zomato</title>
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="h-container">
+        <div class="container-fluid top_nav">
+            <div class="row">
+                <div class="col">
+                    <div class="get_the_app float-left mt-2">
+                        <img src="images/get-the-app-plain.svg" width="30" alt="Responsive image">
+                        <a href="/" id="nav_item_a" class="nav_item_a pr-3">Get the app</a>
+                    </div>
+                    <div class="d-flex float-right mt-2">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <img src="images/order-online.svg" width="25" alt="Responsive image">
+                                <a href="/" id="nav_item_1" class="nav_item_b pr-3">Order Food</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="images/book-a-table.svg" width="25" alt="Responsive image">
+                                <a href="/" id="nav_item_2" class="nav_item_c pr-3">Book a Table</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="images/gold.svg" width="20" alt="Responsive image">
+                                <a href="/" id="nav_item_3" class="nav_item_d pr-4">Zomato Gold</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- start banner section -->
+    <section class="banner">
+        <div class="overlay pt-4">
+            <div class="d-flex justify-content-end pr-5">
+                <h5 class="pr-5"><a href="/" class="href_login">Log in</a></h5>
+                <button type="button" class="btn btn-tranparent">Create an account</button>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="text-center">
+                            <img src="images/zomato_flat_bg_logo.svg" width="130" class="mt-5 pt-5"
+                                alt="Responsive image">
+                        </div>
+                        <h4 class="text-center banner_text my-5">Find the Best restaurants, cafes, and bars in Mumbai
+                        </h4>
+                        <div class="search-restaurants">
+                            <form>
+                                <div class="form-row align-items-center pb-4">
+                                    <div class="col-md-2">
+                                        <select id="inputState" class="form-control mb-2">
+                                            <option selected>Mumbai</option>
+                                            <option>Pune</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control mb-2" id="search-rest"
+                                            placeholder="Search for restaurants or cuisines...">
+                                    </div>
+                                    <div class="col-md-2 col-lg-2">
+                                        <button id="search-btn" class="btn btn-danger mb-2 btn-block">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end banner section -->
+
+    <!-- start widget_collections_section -->
+    <section class="widget_collections_section my-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mt-5 mt-md-0">
+                    <h2>Quick Searches</h2>
+                    <p>Explore curated lists of top resturants, cafes, pubs, and bars in Mumbai, based on trends</p>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="images/trending.jpg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6><strong>Tranding This Week</strong></h6>
+                                                <p class="card-text card2">Most popular restaurants in town this week
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="images/mumbai.jpg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6><strong>Best of Mumbai</strong></h6>
+                                                <p class="card-text card2">The hunt for the highest-rated resturants in
+                                                    your city</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="images/open.jpg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6><strong>Newly Opened</strong></h6>
+                                                <p class="card-text card2">Most popular restaurants in town this week
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="images/surecrisp.jpeg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6><strong>Healthy Eats</strong></h6>
+                                                <p class="card-text card2">These eateries make healthy food a tasty
+                                                    affair</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="p-2 text-center text-danger">
+                                        All collections in Mumbai
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 justify-content-end">
+                    <h4>Order Food Online</h4>
+                    <p>Best restaurants delivering to your door steps</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="widget">
+                                <h4 class="mb-3">Enter your delivery location</h4>
+                                <form>
+                                    <div class="form-group">
+                                        <div class="input-group mb-3">
+                                            <input id="search-del" class="search-del1" type="text" 
+                                                placeholder="Type delivery location here">
+                                            <div class="input-group-append">
+                                                <button class="detect-btn" type="button"
+                                                    id="button-addon2">Detect</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn order-btn">Order Food Online!</button>
+                                </form>
+                            </div>
+                            <p class="my-5 text-center coupon_text">Use code ZOMATO to get up to 50% OFF. T&Cs apply</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--row ends-->
+        </div>
+        <!--container ends-->
+    </section>
+    <!-- end widget_collections_section -->
+
+    
