@@ -1,18 +1,11 @@
-https://fauzan07.github.io/zomato-replica/.
+[https://github.com/ShisaC/Zomato-first-page]
 
 ## Assignment: Zomato Landing Page
 
 ### Problem Statement
 
 You are working for Zomato and your stakeholders expect you to build the landing page of the application.
-
-
-The images are provided to you in the boilerplate repo and you will get once you start the project on GLabs. 
-
-|Normal View|Responsive View|
-|--|--|
-|![zomato.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/zomato.png)|![zomato.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/zomato-mob.png)|
-
+This covers the first page of Zomato.
 
 ### Note: 
 All the elements that you have to build must satisfy the following conditions:
@@ -127,38 +120,10 @@ User should have access to quick searches based on food type.
 - Add CSS styling of your choice 
 
 
-## User Story 5: 
-
-User should have understanding of popular localities in and around <u>`your location`</u>.
-
-*Reference image:*
-![](images/us_5.PNG)
-
-
-#### Details :
-
-
-- Create a section with class name `localities`
-
-- Inside the `section`,
-	- Create a `h2` element with id `"loc-title"` and text `"Popular localities in and around "` + `"Your location"`
-	
-	
-	- Create a `p` element with id `"loc-subtitle"`
-	and text `"Explore restaurants, bars, and cafés by locality"`
-
-	- Inside the section, create an unordered list `ul` with class name `"locality-list'` and atleast ten list items mentioning nearby places. 
-
-- Add CSS styling of your choice 
 
 
 
-## User Story 6:
 
-User should have footer widget with `About Zomato` , `For Foodies` and `For Restaurant` information.
-
-*Reference image:*
-![](images/us_6.PNG)
 
 
 #### Details :
